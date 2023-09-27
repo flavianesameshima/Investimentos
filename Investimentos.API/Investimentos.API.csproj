@@ -24,4 +24,8 @@
     <ProjectReference Include="..\Investimentos.Infra\Investimentos.Infra.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
