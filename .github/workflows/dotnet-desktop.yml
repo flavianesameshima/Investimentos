@@ -49,3 +49,8 @@ jobs:
       with:
         name: MSIX Package
         path: ${{ env.Wap_Project_Directory }}\AppPackages
+        
+  docker:
+     needs: build
+     uses: ./.github/workflows/docker-compose.yml
+     secrets: inherit
