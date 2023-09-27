@@ -13,15 +13,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{4A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{E0F819F2-8B77-43A9-AE0B-E72B83AB907A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.API", "Investimentos.API\Investimentos.API.csproj", "{9A25A39D-B062-4554-A316-66469926ACBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.API", "Investimentos.API\Investimentos.API.csproj", "{9A25A39D-B062-4554-A316-66469926ACBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.Domain", "Investimentos.Domain\Investimentos.Domain.csproj", "{3697A03F-9BA5-4A1A-A93B-2C8AD175F067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Domain", "Investimentos.Domain\Investimentos.Domain.csproj", "{3697A03F-9BA5-4A1A-A93B-2C8AD175F067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.Infra", "Investimentos.Infra\Investimentos.Infra.csproj", "{82521FC6-DB04-415F-8423-7BCD33F50D69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Infra", "Investimentos.Infra\Investimentos.Infra.csproj", "{82521FC6-DB04-415F-8423-7BCD33F50D69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.Services", "Investimentos.Services\Investimentos.Services.csproj", "{BAC48754-2947-4376-A743-87316F96C222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Services", "Investimentos.Services\Investimentos.Services.csproj", "{BAC48754-2947-4376-A743-87316F96C222}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.Aplication", "Investimentos.Aplication\Investimentos.Aplication.csproj", "{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Aplication", "Investimentos.Aplication\Investimentos.Aplication.csproj", "{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{2768DB3B-BE2E-476C-932E-A450E3F15FA1}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
