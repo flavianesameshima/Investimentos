@@ -28,6 +28,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{2768DB
 		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Test", "5-Test", "{5A57DC9B-D617-41AB-8735-F737D82D9A0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.Test", "Investimentos.Test\Investimentos.Test.csproj", "{760ECEED-843A-4A52-9A03-972B2E92F560}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,10 @@ Global
 		{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760ECEED-843A-4A52-9A03-972B2E92F560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760ECEED-843A-4A52-9A03-972B2E92F560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760ECEED-843A-4A52-9A03-972B2E92F560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760ECEED-843A-4A52-9A03-972B2E92F560}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +72,7 @@ Global
 		{82521FC6-DB04-415F-8423-7BCD33F50D69} = {E0F819F2-8B77-43A9-AE0B-E72B83AB907A}
 		{BAC48754-2947-4376-A743-87316F96C222} = {82692E98-C923-48F1-B4D7-D152C4B01FE1}
 		{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8} = {CB29DBA6-F481-42B3-A5EF-4E73C2CCB8F8}
+		{760ECEED-843A-4A52-9A03-972B2E92F560} = {5A57DC9B-D617-41AB-8735-F737D82D9A0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E022502-2016-47B1-A228-A8FDE6EA0C60}
