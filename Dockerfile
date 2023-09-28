@@ -9,9 +9,9 @@ FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /App
 COPY --from=build-env /App/out .
 
-ENTRYPOINT [ “dotnet”, “Investimentos.API.dll”]
-ENTRYPOINT [ “dotnet”, “Investimentos.Aplication.dll”]
-ENTRYPOINT [ “dotnet”, “Investimentos.Domain.dll”]
-ENTRYPOINT [ “dotnet”, “Investimentos.Infra.dll”]
-ENTRYPOINT [ “dotnet”, “Investimentos.Services.dll”]
-ENTRYPOINT [ “dotnet”, “Investimentos.Test.dll”]
+ENTRYPOINT [ â€œdotnetâ€, â€œInvestimentos.API.dllâ€]
+ENTRYPOINT [ â€œdotnetâ€, â€œInvestimentos.Aplication.dllâ€]
+ENTRYPOINT [ â€œdotnetâ€, â€œInvestimentos.Domain.dllâ€]
+ENTRYPOINT [ â€œdotnetâ€, â€œInvestimentos.Infra.dllâ€]
+ENTRYPOINT [ â€œdotnetâ€, â€œInvestimentos.Services.dllâ€]
+ENTRYPOINT [ â€œdotnetâ€, â€œInvestimentos.Test.dllâ€]
