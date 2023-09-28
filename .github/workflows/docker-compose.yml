@@ -24,4 +24,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
+          tag: investimento
           
