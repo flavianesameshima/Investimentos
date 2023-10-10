@@ -1,5 +1,7 @@
-using Investimentos.Infra;
+using Investimentos.Infra.IoC;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Investimentos.Infra;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,8 @@ builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("InvestimentoConnection");
 
 builder.Services.AddDbContext<InvestimentosDbContext>(opts => opts.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
+builder.Services.RegisterApplicationDependencies();
 
 var app = builder.Build();
 

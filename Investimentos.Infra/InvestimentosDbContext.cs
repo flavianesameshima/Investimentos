@@ -8,7 +8,7 @@ namespace Investimentos.Infra
         public InvestimentosDbContext(DbContextOptions<InvestimentosDbContext> opts)
             : base(opts)
         {
-            
+
         }
 
         //public DbSet<Cliente> Clientes { get; set; }
