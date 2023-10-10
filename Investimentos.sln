@@ -5,10 +5,6 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Presentention", "0-Presentention", "{802C61A2-EE88-4CF6-ABDB-AF02E6EF0F58}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Services", "1-Services", "{82692E98-C923-48F1-B4D7-D152C4B01FE1}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Aplication", "2-Aplication", "{CB29DBA6-F481-42B3-A5EF-4E73C2CCB8F8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{4A22C53B-4275-450C-9D40-5EBC29FC4295}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{E0F819F2-8B77-43A9-AE0B-E72B83AB907A}"
@@ -19,10 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Domain", "Inv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Infra", "Investimentos.Infra\Investimentos.Infra.csproj", "{82521FC6-DB04-415F-8423-7BCD33F50D69}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Services", "Investimentos.Services\Investimentos.Services.csproj", "{BAC48754-2947-4376-A743-87316F96C222}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Aplication", "Investimentos.Aplication\Investimentos.Aplication.csproj", "{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{2768DB3B-BE2E-476C-932E-A450E3F15FA1}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
@@ -30,7 +22,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{2768DB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Test", "5-Test", "{5A57DC9B-D617-41AB-8735-F737D82D9A0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.Test", "Investimentos.Test\Investimentos.Test.csproj", "{760ECEED-843A-4A52-9A03-972B2E92F560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investimentos.Domain.Test", "Investimentos.Test\Investimentos.Domain.Test.csproj", "{760ECEED-843A-4A52-9A03-972B2E92F560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Investimentos.Infra.Test", "Investimentos.Infra.Test\Investimentos.Infra.Test.csproj", "{B6D7F01B-6768-4C5E-AD34-6E4411966378}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,18 +44,14 @@ Global
 		{82521FC6-DB04-415F-8423-7BCD33F50D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82521FC6-DB04-415F-8423-7BCD33F50D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82521FC6-DB04-415F-8423-7BCD33F50D69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BAC48754-2947-4376-A743-87316F96C222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAC48754-2947-4376-A743-87316F96C222}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAC48754-2947-4376-A743-87316F96C222}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAC48754-2947-4376-A743-87316F96C222}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{760ECEED-843A-4A52-9A03-972B2E92F560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{760ECEED-843A-4A52-9A03-972B2E92F560}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{760ECEED-843A-4A52-9A03-972B2E92F560}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{760ECEED-843A-4A52-9A03-972B2E92F560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D7F01B-6768-4C5E-AD34-6E4411966378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D7F01B-6768-4C5E-AD34-6E4411966378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D7F01B-6768-4C5E-AD34-6E4411966378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D7F01B-6768-4C5E-AD34-6E4411966378}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,9 +60,8 @@ Global
 		{9A25A39D-B062-4554-A316-66469926ACBB} = {802C61A2-EE88-4CF6-ABDB-AF02E6EF0F58}
 		{3697A03F-9BA5-4A1A-A93B-2C8AD175F067} = {4A22C53B-4275-450C-9D40-5EBC29FC4295}
 		{82521FC6-DB04-415F-8423-7BCD33F50D69} = {E0F819F2-8B77-43A9-AE0B-E72B83AB907A}
-		{BAC48754-2947-4376-A743-87316F96C222} = {82692E98-C923-48F1-B4D7-D152C4B01FE1}
-		{8EC336F9-42C6-4500-AEC9-0D69CF4C9DE8} = {CB29DBA6-F481-42B3-A5EF-4E73C2CCB8F8}
 		{760ECEED-843A-4A52-9A03-972B2E92F560} = {5A57DC9B-D617-41AB-8735-F737D82D9A0E}
+		{B6D7F01B-6768-4C5E-AD34-6E4411966378} = {5A57DC9B-D617-41AB-8735-F737D82D9A0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E022502-2016-47B1-A228-A8FDE6EA0C60}
