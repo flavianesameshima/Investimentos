@@ -9,14 +9,12 @@ namespace Investimentos.Domain.Entities
         public string Nome { get; private set; }
         public double Valor { get; private set; }
         public int BancoId { get; private set; }
-        public double Taxa { get; private set; }
 
-        public Conta(string nome, double valor, int bancoId, double taxa)
+        public Conta(string nome, double valor, int bancoId)
         {
             this.Nome = nome;
             this.Valor = valor;
             this.BancoId = bancoId;
-            this.Taxa = taxa;
         }
     }
 }
